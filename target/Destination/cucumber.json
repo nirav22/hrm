@@ -1,0 +1,844 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10392640240,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 485036303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2290608897,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"Admin\" And \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 21
+                },
+                {
+                  "val": "Test123",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1538201262,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1574638095,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid credentials",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7999613562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2710523968,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2620140618,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"Test\" And \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139534727,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432213967,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid credentials",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 86710229502,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2435724667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1600699535,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"Admin\" And \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 883915595,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386763548,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Password cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password cannot be empty",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17667296256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2544975562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941828722,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"\" And \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 28
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 969246837,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1553515871,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username cannot be empty",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75234358360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2527891393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1779137743,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"Test\" And \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 929082600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2029840949,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Password cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password cannot be empty",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19701840769,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 3058776394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1863777424,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"\" And \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "Test123",
+                  "offset": 28
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838988189,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1642377550,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username cannot be empty",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 76384998330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 2935891636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1661191412,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"\" And \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 28
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906374364,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1435018106,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Username cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username cannot be empty",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is on Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16347184691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User Should Be Not Able To Login Successfully  With Invalid Credentials",
+        "description": "",
+        "id": "login-scenario;user-should-be-not-able-to-login-successfully--with-invalid-credentials;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 507483625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1883929015,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enters Invalid \"Test\" And \"Test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 21
+                },
+                {
+                  "val": "Test123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.user_Enters_Invalid_And(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1288292247,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Clicks On Login Button",
+            "match": {
+              "location": "MyStepDefs.user_Clicks_On_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1488863573,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User see the \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid credentials",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepDefs.user_see_the(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenario",
+    "description": "",
+    "id": "login-scenario",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/Features/Login.feature"
+  }
+]
